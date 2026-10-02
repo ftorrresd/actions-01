@@ -12,4 +12,6 @@ jobs:
     steps:
       - name: Cumprimentar a turma
         run: echo "Olá, GitHub Actions!"
+      - name: Listar arquivos
+        run: ls -la
         
